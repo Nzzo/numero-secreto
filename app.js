@@ -1,5 +1,5 @@
 alert('Bem vindes ao jogo do número secreto!');
-let numeroMaximo = 9999;
+let numeroMaximo = 100;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 
 console.log(`Número Secreto: ${numeroSecreto}`);
